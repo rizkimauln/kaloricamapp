@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 # Path ke model Keras
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "Model", "best_food_model.keras")
+MODEL_PATH = os.path.join(os.path.dirname(__file__), "Model", "best_food_model.keras")
 
 # Global variable untuk menampung model
 model = None
@@ -28,7 +28,7 @@ model = None
 IMG_SIZE = (224, 224) 
 
 # Membaca kamus kalori dari file JSON
-CALORIE_DICT_PATH = os.path.join(os.path.dirname(__file__), "..", "Model", "calorie_dict.json")
+CALORIE_DICT_PATH = os.path.join(os.path.dirname(__file__), "Model", "calorie_dict.json")
 try:
     with open(CALORIE_DICT_PATH, "r") as f:
         calorie_dict = json.load(f)
