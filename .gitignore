@@ -1,0 +1,77 @@
+# =========================
+# GLOBAL OS FILES
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# FRONTEND (React / Vite)
+# =========================
+Frontend/node_modules/
+Frontend/dist/
+Frontend/build/
+Frontend/.env
+Frontend/.env.*
+!Frontend/.env.example
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/.eslintcache
+
+# =========================
+# BACKEND (Laravel)
+# =========================
+Backend/vendor/
+Backend/node_modules/
+Backend/public/build/
+Backend/public/hot
+Backend/public/storage
+Backend/storage/*.key
+Backend/storage/framework/cache/
+Backend/storage/framework/sessions/
+Backend/storage/framework/testing/
+Backend/storage/framework/views/
+Backend/storage/logs/
+Backend/.env
+Backend/.env.*
+!Backend/.env.example
+Backend/.phpunit.result.cache
+Backend/Homestead.json
+Backend/Homestead.yaml
+Backend/npm-debug.log
+Backend/yarn-error.log
+
+# =========================
+# AI SERVICE (FastAPI / Python)
+# =========================
+AI Service/__pycache__/
+AI Service/*.py[cod]
+AI Service/*$py.class
+AI Service/.pytest_cache/
+AI Service/venv/
+AI Service/env/
+AI Service/ENV/
+AI Service/.env
+AI Service/.venv
+AI Service/pip-log.txt
+AI Service/pip-delete-this-directory.txt
+
+# =========================
+# MODEL & DATASET
+# =========================
+# Ignore the dataset folder because it is too large
+Model/Dataset/
+Model/*.zip
+Model/*.tar.gz
+# (Optional) Ignore large model weights if you don't want them in GitHub:
+# Model/*.keras
+# Model/*.h5
+
+# =========================
+# IDEs / EDITORS
+# =========================
+.idea/
+.vscode/
+*.swp
+*.swo
