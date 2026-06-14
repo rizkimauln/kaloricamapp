@@ -131,6 +131,8 @@ Contoh penambahan di `calorie_dict.json`:
 ```
 *Pastikan penulisan nama kunci (key) di file JSON sama persis dengan nama folder kelas makanan di dalam direktori Dataset (memperhatikan huruf kapital dan spasi).*
 
+> **Info Teknis:** TensorFlow membaca folder secara alfabetis. Aplikasi telah dibekali fungsi `sorted()` pada `AI Service/main.py` sehingga urutan file JSON akan diurutkan secara otomatis (A-Z) di belakang layar untuk menyesuaikan pembacaan indeks AI. Meskipun demikian, sangat disarankan untuk tetap menuliskan isi JSON secara berurutan sesuai abjad agar mudah dibaca dan dipelihara.
+
 Setelah file JSON diperbarui, buka `food_calorie_classification.ipynb` dan jalankan ulang semua sel (Run All) untuk melatih ulang (retrain) model AI Anda agar kelas yang baru dapat dikenali.
 
 ---
@@ -142,7 +144,3 @@ Setelah file JSON diperbarui, buka `food_calorie_classification.ipynb` dan jalan
 - `![Scanner](/path/to/scan.png)`
 - `![Profile](/path/to/profile.png)`
 
----
-
-## Lisensi
-Proyek ini dibuat untuk tujuan edukasi dan portofolio. Bebas digunakan dan dikembangkan lebih lanjut.
