@@ -136,11 +136,3 @@ Contoh penambahan di `calorie_dict.json`:
 Setelah file JSON diperbarui, buka `food_calorie_classification.ipynb` dan jalankan ulang semua sel (Run All) untuk melatih ulang (retrain) model AI Anda agar kelas yang baru dapat dikenali.
 
 ---
-
-## Tangkapan Layar (Screenshots)
-
-(Tambahkan gambar screenshot aplikasi Anda di sini nanti)
-- `![Home Page](/path/to/home.png)`
-- `![Scanner](/path/to/scan.png)`
-- `![Profile](/path/to/profile.png)`
-
