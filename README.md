@@ -30,9 +30,9 @@ Proyek ini dibagi menjadi tiga layanan utama dan satu bagian pengembangan mesin 
 ```text
 Caloricam/
 ├── AI Service/       # Layanan API berbasis Python untuk memproses deteksi gambar
+│   └── Model/        # Jupyter notebook, file model (.keras), dan kamus kalori (.json)
 ├── Backend/          # Layanan API berbasis PHP/Laravel untuk manajemen user & database
-├── Frontend/         # Layanan UI/UX berbasis React.js
-└── Model/            # Jupyter notebook, file model (.keras), dan kamus kalori (.json)
+└── Frontend/         # Layanan UI/UX berbasis React.js
 ```
 
 ---
@@ -107,7 +107,7 @@ Anda dapat mengunduh dataset secara manual melalui tautan berikut:
 
 ### Struktur File di Folder Model
 ```text
-Model/
+AI Service/Model/
 ├── Dataset/                           # Folder ekstraksi dari file ZIP dataset (Tidak masuk GitHub)
 │   ├── Anggur/                        # Subfolder nama kelas makanan (berisi foto-foto)
 │   ├── Apel/                          
