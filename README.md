@@ -103,7 +103,7 @@ Aplikasi sekarang dapat diakses melalui browser di `http://localhost:5173`.
 Model AI dilatih menggunakan dataset gambar makanan khusus. Karena ukurannya yang sangat besar, dataset tidak disertakan di dalam repositori Github ini. 
 
 Anda dapat mengunduh dataset secara manual melalui tautan berikut:
-[Unduh Dataset CaloriCam (Klik Disini) - URL DUMMY](https://example-dummy-url.com/download/dataset_makanan.zip)
+[Unduh Dataset CaloriCam (Klik Disini) - URL](https://drive.google.com/drive/folders/1mJrI3fYYeD6zBBMDoQfjxI9FFyRXIpwe?usp=sharing)
 
 ### Struktur File di Folder Model
 ```text
